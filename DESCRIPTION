@@ -1,0 +1,16 @@
+Package: BIDistances
+Type: Package
+Title: Bioinformatic Distances
+Version: 1.0
+Date: 2023-03-03
+Authors@R: c(person("Michael", "Thrun", email= "m.thrun@gmx.net",role=c("aut","cre"), comment = c(ORCID = "0000-0001-9542-5543")),person("Quirin", "Stier",role=c("ctb")))
+Maintainer: Michael Thrun <m.thrun@gmx.net>
+Description: Distance-measures for bioinformatic data.
+Depends: R (>= 3.5.0)
+License: GPL-3
+LazyLoad: yes
+Imports: parallelDist, diptest, e1071, stats, DataVisualizations, ggplot2, sphet
+Suggests: knitr
+Encoding: UTF-8
+VignetteBuilder: knitr
+URL: https://www.uni-marburg.de/fb12/datenbionik/software-en

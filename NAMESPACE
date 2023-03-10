@@ -1,0 +1,10 @@
+exportPattern("^[[:alpha:]]+")
+
+
+importFrom("DataVisualizations", "BimodalityAmplitude", "MDplot")
+#import("DataVisualizations")
+import("diptest")
+importFrom("e1071", "kurtosis")
+importFrom("parallelDist", "parallelDist", "parDist")
+importFrom("stats", "as.dist", "cor", "dist")
+importFrom("ggplot2", "ggtitle")
